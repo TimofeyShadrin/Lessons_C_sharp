@@ -3,8 +3,8 @@ int firstFreindSpeed = 2;
 int secondFreindSpeed = 1;
 int dogSpeed = 5;
 int freind = 2;
-int distance = 50;
-int time = 0;
+double distance = 50;
+double time = 0;
 
 while (distance > 2)
 {
