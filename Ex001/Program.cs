@@ -43,3 +43,5 @@ while(count < 1000)
     Console.WriteLine("+");
     count++;
 }
+
+Console.SetCursorPosition(1, 22);
