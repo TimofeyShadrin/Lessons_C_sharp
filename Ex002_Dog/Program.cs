@@ -1,10 +1,39 @@
 ﻿int count = 0;
-int firstFreindSpeed = 2;
-int secondFreindSpeed = 1;
-int dogSpeed = 5;
+
+Console.Write("How is your name? ");
+string? name = Console.ReadLine();
+if (name != null)
+{
+name = name.ToLower();
+}
+
+if (name == "timofei")
+{
+    Console.WriteLine("Hi, Tim!");
+}
+else if (name == "timofey")
+{
+    Console.WriteLine("Hi? Tim!");
+}
+else if (name == "tim")
+{
+    Console.WriteLine("Hi? Tim!");
+}
+else
+{
+    Console.WriteLine("Hello, my freind!");
+}
+
+Console.Write("What is the speed of the freind number one? ");
+int firstFreindSpeed = Convert.ToInt32(Console.ReadLine());
+Console.Write("What is the speed of the freind number second? ");
+int secondFreindSpeed = Convert.ToInt32(Console.ReadLine());
+Console.Write("What is the speed of the dog? ");
+int dogSpeed = Convert.ToInt32(Console.ReadLine());
 int freind = 2;
-double distance = 20;
-double time = 0;
+float distance = new Random().Next(20, 100);
+Console.WriteLine("Distance = " + distance);
+float time = 0;
 
 while (distance > 2)
 {
@@ -25,4 +54,4 @@ while (distance > 2)
     count = count + 1;
 }
 
-Console.WriteLine(count);
+Console.WriteLine("Dog run " + count + " times");
