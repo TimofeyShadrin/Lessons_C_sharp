@@ -2,14 +2,9 @@
 { class Program 
     { static void Main(string[] args) 
         { 
-            Console.WriteLine("Input value: ");
-            int number = Convert.ToInt32(Console.ReadLine());
-            //Получаем число
-            int square = Convert.ToInt32(Math.Pow(number, 2));
-            // Или получаем и записваем число
-            number *= number;
-            // Вывод результата
-            Console.WriteLine($"Square is: {square}");
+            char n = '8';
+            int x  = Convert.ToInt32(n.ToString());
+            Console.WriteLine($"x is: {x}");
 
         } 
     } 
