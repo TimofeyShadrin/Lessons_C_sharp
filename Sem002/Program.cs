@@ -26,7 +26,9 @@ namespace HelloWorld
             }
 
             Console.WriteLine($"x is: {x}");
-
+            char[] test_number = str.ToString().ToCharArray();
+            char y = str.ToString().ToCharArray().LastOrDefault();
+            Console.WriteLine(test_number[0] + y.ToString());
         } 
     } 
 } 
