@@ -16,7 +16,7 @@ Console.WriteLine("+");
 int x = xa, y = ya;
 int count = 0;
 
-while(count < 1000)
+while(count < 500)
 {
     int what = new Random().Next(0, 3);
 
