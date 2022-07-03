@@ -36,8 +36,8 @@
             PrintArrayInt(numbers, 0);
             Console.WriteLine();
             Console.WriteLine(Sum(numbers, 0));
-            string input = "561";
-            Console.WriteLine(Str(input, 0));
+            string? input = Console.ReadLine();
+            if (!string.IsNullOrEmpty(input)) Console.WriteLine(Str(input, 0));
 
         }
 
