@@ -36,6 +36,17 @@
             else return sum;
         }
 
+        static int Foo (int digits)
+        {
+            int result = 0;
+            while (digits > 0)
+            {
+                result += digits % 10;
+                digits /= 10;
+            }
+            return result;
+        }
+
         static void Main(string[] args)
         {
 
